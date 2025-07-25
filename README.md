@@ -16,6 +16,7 @@ After
 HOW TO USE:
 Create the firewall file in your Linux directory
 Copy the Python code into said file
+Create a .env file with an AbuseIPDB API key
 Run python file_name
 Install prompted necessary dependencies
 Run python file_name
