@@ -78,7 +78,7 @@ def analyze_threat_level(threat_data):
 
     print(f'Threat info: Confidence={confidence}, Usage Type: {usage}, Country: {country}')
 
-    if confidence >= HIGH_THREAT_THRESHOLD:
+    if confidence >= HIGH_THREAT_THRESHOLD or country == "KP":
         return "high_threat", confidence
     elif confidence >= THREAT_THRESHOLD:
         return "medium_threat", confidence
