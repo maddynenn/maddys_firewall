@@ -158,11 +158,11 @@ def handle_packet(packet):
         data_packet = (
             IP(dst=src_ip, src=packet[IP].dst) /
             TCP(sport=port, dport=src_port, flags="PA", seq=101, ack=packet[TCP].seq + 1) /
-            Raw(load="try harder")
+            Raw(load="not today!")
         )
         
         send(data_packet, verbose=0)
-        print(f"send data packet with message 'try harder' to {src_ip} on port {port}")
+        print(f"send data packet with message 'not today!' to {src_ip} on port {port}")
 
 def unblock_expired_ips():
     now = datetime.now()
