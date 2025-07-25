@@ -14,10 +14,10 @@ After
 <img width="450" height="15" alt="image" src="https://github.com/user-attachments/assets/81822082-a6b5-4524-aebc-cedcba04343c" />
 
 HOW TO USE:
-Create the firewall file in your Linux directory
-Copy the Python code into said file
-Create a .env file with an AbuseIPDB API key
-Run python file_name
-Install prompted necessary dependencies
-Run python file_name
-Watch as IPs try to scan your server, and see the firewall take action!
+- Create the firewall file in your Linux directory
+- Copy the Python code into said file
+- Create a .env file with an AbuseIPDB API key
+- Run python file_name
+- Install prompted necessary dependencies
+- Run python file_name
+- Watch as IPs try to scan your server, and see the firewall take action!
